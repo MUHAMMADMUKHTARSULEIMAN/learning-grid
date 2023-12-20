@@ -12,8 +12,7 @@ body {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   grid-auto-rows: minmax(auto, auto);
   background-color: aqua;
   gap: 20px;
