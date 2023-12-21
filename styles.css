@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  grid-auto-rows: minmax(auto, auto);
+  /* grid-auto-rows: minmax(auto, auto); */
   background-color: aqua;
   gap: 20px;
 }
